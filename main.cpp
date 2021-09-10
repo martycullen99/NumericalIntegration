@@ -49,7 +49,7 @@ int main (int argc, char* argv[]) {
     for (int i = 0; i <= n-1; i++)
       {
 	float x = a + ((i + 0.5) * ban);
-	printf("%f\n", x);
+	//printf("%f\n", x);
 	result += f1(x, intensity);
       }
     result *= ban;
